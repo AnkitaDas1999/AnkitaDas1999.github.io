@@ -1,13 +1,13 @@
 # 👩💻 Ankita Das — Portfolio
 
-[![GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-6d5acd?style=for-the-badge&logo=github)](https://ankita-das.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ankita--das--2012-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ankita-das-2012/)
+[![GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-6d5acd?style=for-the-badge&logo=github)](https://ankitadas1999.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ankita--das--2012-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ankita-das-2012/)
 
 My personal portfolio website showcasing my experience, projects, skills, and certifications as a Software Engineer and MS Computer Science student at Northeastern University.
 
 ## 🚀 Live Site
 
-**[ankita-das.github.io](https://ankita-das.github.io)**
+**[ankitadas1999.github.io](https://ankitadas1999.github.io)**
 
 > Replace with your actual GitHub Pages URL.
 
@@ -125,7 +125,6 @@ Copy an existing `project-card` block in the Projects section of `index.html` an
 
 - **Email:** [dasankita1220@gmail.com](mailto:dasankita1220@gmail.com)
 - **LinkedIn:** [linkedin.com/in/ankita-das-2012](https://linkedin.com/in/ankita-das-2012/)
-- **Phone:** +1 (617) 935-7605
 
 ## 📝 License
 
