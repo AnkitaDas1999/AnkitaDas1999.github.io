@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankita Das | Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Particles Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">&lt;AD /&gt;</a>
+        <div class="nav-menu" id="navMenu">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#awards" class="nav-link">Awards</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+          <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <p class="hero-greeting reveal">Hi, my name is</p>
+        <h1 class="hero-name reveal">Ankita Das</h1>
+        <h2 class="hero-title reveal">
+          <span class="typewriter" id="typewriter"></span>
+          <span class="typewriter-cursor">|</span>
+        </h2>
+        <p class="hero-description reveal">
+          MS in Computer Science @ Northeastern | 4+ years building cloud
+          platforms, AI-driven solutions & scalable full-stack applications.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </a>
+          <a
+            href="https://linkedin.com/in/ankita-das-2012/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a
+            href="https://github.com/ankita-das"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+        <div class="mouse">
+          <div class="mouse-wheel"></div>
+        </div>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-number">01.</span> About Me
+        </h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a software engineer with a passion for building things that
+              live on the internet. Currently pursuing my
+              <strong>MS in Computer Science</strong> at
+              <strong>Northeastern University</strong> (4.0 GPA), I bring 4+
+              years of industry experience from
+              <strong>John Deere</strong> where I specialized in cloud
+              migration, intelligent automation, and AI-driven analytics.
+            </p>
+            <p>
+              I've led projects that reduced migration time by
+              <strong>60%</strong>, cut support requests by
+              <strong>90%</strong>, and improved customer satisfaction by
+              <strong>25%</strong>. I love tackling complex problems that drive
+              measurable business outcomes.
+            </p>
+            <p>Here are some technologies I've been working with recently:</p>
+            <ul class="about-tech-list">
+              <li>React & TypeScript</li>
+              <li>Java Spring Boot</li>
+              <li>AWS & Azure</li>
+              <li>GraphQL</li>
+              <li>Kubernetes & Docker</li>
+              <li>Python & ML</li>
+            </ul>
+          </div>
+          <div class="about-stats reveal">
+            <div class="stat-card">
+              <div class="stat-number" data-target="4">0</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-target="60">0</div>
+              <div class="stat-label">% Faster Migrations</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-target="90">0</div>
+              <div class="stat-label">% Efficiency Gains</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number" data-target="36">0</div>
+              <div class="stat-label">Teams Impacted</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-number">02.</span> Education
+        </h2>
+        <div class="education-cards">
+          <div class="edu-card reveal">
+            <div class="edu-icon"><i class="fas fa-university"></i></div>
+            <div class="edu-info">
+              <h3>Northeastern University</h3>
+              <p class="edu-degree">
+                Master of Science in Computer Science
+              </p>
+              <p class="edu-meta">
+                <span><i class="fas fa-map-marker-alt"></i> Boston, MA</span>
+                <span><i class="fas fa-calendar"></i> 2025 – Present</span>
+                <span class="edu-gpa">GPA: 4.0/4.0</span>
+              </p>
+            </div>
+          </div>
+          <div class="edu-card reveal">
+            <div class="edu-icon"><i class="fas fa-university"></i></div>
+            <div class="edu-info">
+              <h3>National Institute of Technology Rourkela</h3>
+              <p class="edu-degree">
+                Bachelor of Technology in Computer Science & Engineering
+              </p>
+              <p class="edu-meta">
+                <span><i class="fas fa-map-marker-alt"></i> India</span>
+                <span><i class="fas fa-calendar"></i> 2017 – 2021</span>
+                <span class="edu-gpa">GPA: 3.3/4.0</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-number">03.</span> Experience
+        </h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Senior Software Engineer</h3>
+                  <h4>
+                    <i class="fas fa-building"></i> John Deere
+                  </h4>
+                </div>
+                <span class="timeline-date">
+                  <i class="fas fa-calendar-alt"></i> 4+ Years
+                </span>
+              </div>
+              <ul class="timeline-list">
+                <li>
+                  Built an internal platform centralizing cloud resource
+                  information, cost analysis, and migration workflows
+                  (AWS/Azure), <strong>reducing on-premises migration time
+                  by 60%</strong>.
+                </li>
+                <li>
+                  Spearheaded Azure network resource automation,
+                  <strong>reducing internal support requests by 90%</strong>
+                  and minimizing manual intervention.
+                </li>
+                <li>
+                  Led AI-driven analytics to predict user behavior
+                  (<strong>25% satisfaction increase</strong>) and integrated
+                  a Microsoft Copilot-powered chatbot for self-service cloud
+                  support.
+                </li>
+                <li>
+                  Led development of a credit tracking application for
+                  billing and tax auditing,
+                  <strong>improving financial data management by 50%</strong>.
+                </li>
+                <li>
+                  Redesigned CI/CD into a single-click process, accelerating
+                  time-to-production from
+                  <strong>3 days to 5 minutes</strong>.
+                </li>
+                <li>
+                  Discovered and remediated an API vulnerability impacting
+                  <strong>36 teams</strong>; designed an Inter-VPC
+                  communication framework adopted enterprise-wide.
+                </li>
+                <li>
+                  <strong>Improved UX scores by 30%</strong> via React UI
+                  enhancements; developed GraphQL APIs improving client
+                  performance 30%.
+                </li>
+              </ul>
+              <div class="timeline-tags">
+                <span>React</span><span>Spring Boot</span><span>AWS</span>
+                <span>Azure</span><span>GraphQL</span>
+                <span>Kubernetes</span><span>CI/CD</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Data Analyst Intern</h3>
+                  <h4>
+                    <i class="fas fa-building"></i> Blitz Jobs Inc.
+                  </h4>
+                </div>
+                <span class="timeline-date">
+                  <i class="fas fa-calendar-alt"></i> Jun – Aug 2020
+                </span>
+              </div>
+              <ul class="timeline-list">
+                <li>
+                  Analyzed Indian startup data via segmentation and funding
+                  metrics to identify collaboration opportunities.
+                </li>
+                <li>
+                  Created data-driven strategies and reports that enhanced
+                  client acquisition.
+                </li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Data Analysis</span><span>Python</span>
+                <span>Reporting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-number">04.</span> Skills & Technologies
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-category reveal">
+            <div class="skill-category-header">
+              <i class="fas fa-code"></i>
+              <h3>Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag" data-level="advanced">C++</span>
+              <span class="skill-tag" data-level="advanced">Python</span>
+              <span class="skill-tag" data-level="advanced">Java</span>
+              <span class="skill-tag" data-level="advanced">JavaScript</span>
+              <span class="skill-tag" data-level="advanced">TypeScript</span>
+              <span class="skill-tag" data-level="intermediate">C</span>
+              <span class="skill-tag" data-level="advanced">HTML</span>
+              <span class="skill-tag" data-level="advanced">CSS</span>
+              <span class="skill-tag" data-level="advanced">SQL</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-header">
+              <i class="fas fa-layer-group"></i>
+              <h3>Frameworks & Libraries</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag" data-level="advanced">React</span>
+              <span class="skill-tag" data-level="advanced">Spring Boot</span>
+              <span class="skill-tag" data-level="intermediate">Node.js</span>
+              <span class="skill-tag" data-level="intermediate">GraphQL</span>
+              <span class="skill-tag" data-level="intermediate">Terraform</span>
+              <span class="skill-tag" data-level="intermediate">Grafana</span>
+              <span class="skill-tag" data-level="intermediate">Kubernetes</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-header">
+              <i class="fas fa-cloud"></i>
+              <h3>Cloud & DevOps</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag" data-level="advanced">AWS</span>
+              <span class="skill-tag" data-level="advanced">Microsoft Azure</span>
+              <span class="skill-tag" data-level="advanced">Docker</span>
+              <span class="skill-tag" data-level="advanced">CI/CD</span>
+              <span class="skill-tag" data-level="intermediate">Jenkins</span>
+              <span class="skill-tag" data-level="intermediate">GitHub Actions</span>
+              <span class="skill-tag" data-level="intermediate">Datadog</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-header">
+              <i class="fas fa-database"></i>
+              <h3>Databases</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag" data-level="advanced">MySQL</span>
+              <span class="skill-tag" data-level="advanced">PostgreSQL</span>
+              <span class="skill-tag" data-level="intermediate">MongoDB</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <div class="skill-category-header">
+              <i class="fas fa-brain"></i>
+              <h3>Concepts</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Microservices</span>
+              <span class="skill-tag">NLP</span>
+              <span class="skill-tag">Deep Learning</span>
+              <span class="skill-tag">Data Structures</span>
+              <span class="skill-tag">Agile</span>
+              <span class="skill-tag">DevOps</span>
+              <span class="skill-tag">Computer Networking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-number">05.</span> Projects
+        </h2>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-card-header">
+              <i class="fas fa-folder-open project-icon"></i>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="External link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Turf Booking Application</h3>
+            <p class="project-description">
+              Full-stack turf booking platform enabling users to browse, book,
+              and manage reservations for sports facilities (cricket, padel,
+              badminton) with role-based access control and Google Maps
+              integration for location services.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>Google Maps API</span>
+            </div>
+            <span class="project-year">2025</span>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-card-header">
+              <i class="fas fa-folder-open project-icon"></i>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="External link"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Face Mask Detection</h3>
+            <p class="project-description">
+              Computer vision-based face mask detection system using image
+              analysis and machine learning to enhance safety with
+              mask-wearing guidelines in public spaces.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Computer Vision</span>
+              <span>Machine Learning</span>
+            </div>
+            <span class="project-year">2021</span>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-card-header">
+              <i class="fas fa-folder-open project-icon"></i>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Cloud Migration Platform</h3>
+            <p class="project-description">
+              Internal platform centralizing cloud resource information,
+              cost analysis, and migration workflows across AWS and Azure,
+              reducing on-premises migration time by 60%.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Spring Boot</span>
+              <span>AWS</span>
+              <span>Azure</span>
+              <span>GraphQL</span>
+            </div>
+            <span class="project-year">John Deere</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="section section-alt" id="awards">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-number">06.</span> Awards & Certifications
+        </h2>
+        <div class="awards-grid">
+          <div class="award-card reveal">
+            <div class="award-icon">
+              <i class="fab fa-aws"></i>
+            </div>
+            <h3>AWS Certified Developer Associate</h3>
+            <p>DVA-C02</p>
+          </div>
+          <div class="award-card reveal">
+            <div class="award-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3>GenAI Hackathon Winner</h3>
+            <p>Generative AI Innovation</p>
+          </div>
+          <div class="award-card reveal">
+            <div class="award-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3>Technological Innovation Award</h3>
+            <p>Engineering Excellence</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-title reveal">
+          <span class="section-number">07.</span> Get In Touch
+        </h2>
+        <p class="contact-text reveal">
+          I'm currently looking for new opportunities. Whether you have a
+          question, a project idea, or just want to say hi — my inbox is
+          always open!
+        </p>
+        <div class="contact-links reveal">
+          <a
+            href="mailto:dasankita1220@gmail.com"
+            class="btn btn-primary btn-lg"
+          >
+            <i class="fas fa-envelope"></i> Say Hello
+          </a>
+        </div>
+        <div class="contact-socials reveal">
+          <a
+            href="https://linkedin.com/in/ankita-das-2012/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/ankita-das"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:dasankita1220@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        Designed & Built by <strong>Ankita Das</strong>
+      </p>
+      <p class="footer-sub">
+        Built with <i class="fas fa-heart" style="color: var(--accent)"></i>
+        and lots of coffee
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
